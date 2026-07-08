@@ -5,7 +5,7 @@
 
 function Lists() {
 
-  const students = ["Praveen", "Rahul", "Kiran", "Anil"];
+  const students = ["React", "Java", "Python", "Node JS"];
 
   return (
     <>
