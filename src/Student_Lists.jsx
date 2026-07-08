@@ -1,10 +1,12 @@
+import React from "react";
+import Lists from "./Student_Lists";
 function Lists() {
   const students = [
     { id: 1, name: "Praveen", age: 22, course: "React" },
     { id: 2, name: "Rahul", age: 23, course: "Java" },
     { id: 3, name: "Kiran", age: 21, course: "Python" },
     { id: 4, name: "Anil", age: 24, course: "Node JS" }
-  ];
+  ];  
 
   return (
     <>

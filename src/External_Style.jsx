@@ -3,7 +3,9 @@
 // Create a separate CSS file and write normal CSS inside it.
 // Then import the CSS file into the React component.
 // React uses className instead of class because class is a reserved keyword in JavaScript.
+import React from "react";
 
+import External from "./External_Style";
 import "./style.css";
 
 function External() {

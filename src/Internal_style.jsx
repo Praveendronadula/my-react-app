@@ -2,6 +2,7 @@
 // Definition
 // Instead of writing styles directly inside JSX, create a JavaScript object (variable) containing all the styles and pass that variable to the style attribute.
 // This is useful when the same styles are reused.
+import InternalStyle from "./Internal_style";
 function Internal() {
   const headingStyle = {
     color: "green",
