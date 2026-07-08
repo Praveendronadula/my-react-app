@@ -2,7 +2,6 @@
 // Definition
 // Inline styles are applied directly to an element using the style attribute in JSX.
 // Unlike HTML, React expects the style attribute to receive a JavaScript object, not a string.
-import Styles from "./Styles";
 function style() {
 
   return (
