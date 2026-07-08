@@ -10,7 +10,7 @@ function Lists() {
     <>
       <h2>Student Details</h2>
 
-      <table border="1" cellPadding="10">
+      <table border="1">
         <thead>
           <tr>
             <th>ID</th>
