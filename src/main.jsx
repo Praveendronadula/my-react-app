@@ -17,11 +17,25 @@
 //     <AppRouter />
 //   </React.StrictMode>
 // );
-import React from "react";
-import ReactDOM from "react-dom/client";
-// import Styles from "./Styles";
-import InternalStyle from "./Internal_style";
-import InlineStyle from "./Inline_Style";
+// import React from "react";
+// import ReactDOM from "react-dom/client";
+// // import Styles from "./Styles";
+// import InternalStyle from "./Internal_style";
+// import InlineStyle from "./Inline_Style";
+// ReactDOM.createRoot(document.getElementById("root")).render(
+//   <Styles />
+// );
+import External from "./External_Style";
+
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <Styles />
+  <External />
 );
+// import React from "react";
+// import ReactDOM from "react-dom/client";
+// import Lists from "./Lists";
+
+// ReactDOM.createRoot(document.getElementById("root")).render(
+//   <React.StrictMode>
+//     <Lists />
+//   </React.StrictMode>
+// );
