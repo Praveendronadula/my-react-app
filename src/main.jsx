@@ -25,17 +25,17 @@
 // ReactDOM.createRoot(document.getElementById("root")).render(
 //   <Styles />
 // );
-import External from "./External_Style";
-
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <External />
-);
-// import React from "react";
-// import ReactDOM from "react-dom/client";
-// import Lists from "./Lists";
+// import External from "./External_Style";
 
 // ReactDOM.createRoot(document.getElementById("root")).render(
-//   <React.StrictMode>
-//     <Lists />
-//   </React.StrictMode>
+//   <External />
 // );
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Lists from "./Student_Lists";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <Lists />
+  </React.StrictMode>
+);
