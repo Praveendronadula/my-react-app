@@ -1,18 +1,16 @@
-import React from "react";
-import Lists from "./Student_Lists";
-function Lists() {
+function StudentLists() {
   const students = [
     { id: 1, name: "Praveen", age: 22, course: "React" },
     { id: 2, name: "Rahul", age: 23, course: "Java" },
     { id: 3, name: "Kiran", age: 21, course: "Python" },
     { id: 4, name: "Anil", age: 24, course: "Node JS" }
-  ];  
+  ];
 
   return (
     <>
       <h2>Student Details</h2>
 
-      <table border="1">
+      <table border="1" cellPadding="10">
         <thead>
           <tr>
             <th>ID</th>
@@ -37,4 +35,4 @@ function Lists() {
   );
 }
 
-export default Lists;
+export default StudentLists;
