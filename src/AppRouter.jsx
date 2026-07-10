@@ -4,6 +4,7 @@ import Home from "./Home";
 import StudentLists from "./Student_Lists";
 import CourseLists from "./Course_Lists";
 import Faculty from "./Faculty";
+import Hooks from "./Hooks";
 
 function AppRouter() {
   return (
@@ -15,7 +16,8 @@ function AppRouter() {
           <Link to="/">Home</Link> |{" "}
           <Link to="/student">Student</Link> |{" "}
           <Link to="/faculty">Faculty</Link> |{" "}
-          <Link to="/courses">Courses</Link>
+          <Link to="/courses">Courses</Link> |{" "}
+         <Link to="/Hooks">Hooks</Link>
         </nav>
 
         <hr />
@@ -25,6 +27,7 @@ function AppRouter() {
           <Route path="/student" element={<StudentLists />} />
           <Route path="/faculty" element={<Faculty />} />
           <Route path="/courses" element={<CourseLists />} />
+           <Route path="/Hooks" element={<Hooks />} />
         </Routes>
       </div>
     </Router>
